@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.columna { 
+.columna {
     text-align: center;
     /*width: 100%;*/
 
@@ -14,11 +14,12 @@
 
 .columna1 {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     box-sizing: border-box;
     flex-direction: column;
     padding-left: 12px;
 }
+
 /*
 .columna1 p {
     padding-left: 12px;
@@ -35,7 +36,7 @@
 .columna2 {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 
@@ -59,7 +60,7 @@
     background-color: #FFB773;
     padding: 16 px;
 
-   
+
 }
 
 .destacado .resaltado {
@@ -113,7 +114,7 @@
         box-sizing: border-box;
     }
 
-   
+
 
 
 }

@@ -1,13 +1,13 @@
 .columnas {
-   /* width: 100%;      */
+    /* width: 100%;      */
 
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.columna {    
+.columna {
     padding: 10px;
     /*justify-items: center;
        
@@ -21,25 +21,25 @@
 
 .columna img {
     max-width: 50%;
-   /* max-height: 50%;*/
+    /* max-height: 50%;*/
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-   /* border: 1px solid rgb(239, 29, 29); sólo para pruebas */
+    /* border: 1px solid rgb(239, 29, 29); sólo para pruebas */
 }
 
 
 .columna p {
-  /*  vertical-align: bottom;*/
- /* border: 1px solid rgb(123, 158, 129); sólo para pruebas */
-    box-sizing: border-box; 
-  /*  width: 99%;*/
+    /*  vertical-align: bottom;*/
+    /* border: 1px solid rgb(123, 158, 129); sólo para pruebas */
+    box-sizing: border-box;
+    /*  width: 99%;*/
 }
 
 .columna h2 {
-    font-weight: 400;    
+    font-weight: 400;
     height: 15%;
-   /* border: 1px solid blue; sólo para pruebas */
-   /*width:99%;*/
+    /* border: 1px solid blue; sólo para pruebas */
+    /*width:99%;*/
     /*
     padding: 0 px;*/
     box-sizing: content-box;
@@ -53,7 +53,7 @@
         display: flex;
         justify-content: space-between;
         box-sizing: border-box;
-        flex-direction: row; 
+        flex-direction: row;
     }
 
     .columna {
@@ -69,21 +69,21 @@
         justify-content: center;
         align-items: center;
 
-        
+
     }
 
     .columna img {
         max-width: 90%;
-        max-height: 90%;       
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);       
+        max-height: 90%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         height: 150px;
     }
 
-    
-    .columna h2 { 
-        height: 40px;    
-        margin-top: 10px;   
-       /* height: 50px;*/
+
+    .columna h2 {
+        height: 40px;
+        margin-top: 10px;
+        /* height: 50px;*/
         /*
         display: flex;
         flex-direction: column;
@@ -94,17 +94,17 @@
 
     .columna p {
         height: 120px;
-         
+
         margin-top: 1px;
         font-size: 16px;
-       /*
+        /*
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         */
     }
 
-    
+
 
 
 }
